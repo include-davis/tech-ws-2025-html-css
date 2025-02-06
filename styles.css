@@ -1,0 +1,53 @@
+/* Reset some default spacing */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Style the header section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the paragraph in the section */
+section p {
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style for the button with a class "fancy-button" */
+.fancy-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change the button background when hovered */
+.fancy-button:hover {
+    background-color: #e68900;
+}
+
+/* Style the footer */
+footer {
+    background-color: #ddd;
+    color: #555;
+    text-align: center;
+    padding: 10px;
+    /* Fix the footer at the bottom */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
